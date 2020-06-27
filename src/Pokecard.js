@@ -5,14 +5,13 @@ const img = `https://raw.githubusercontent.com/fanzeyi/pokemon.json/master/sprit
 
 class Pokecard extends React.Component {
     render() {
-        console.log(this.props)
         return (
-            <div className="card">
-                <h1>{this.props.name}</h1>
+            <div className="Pokecard">
+                <h1 className="Pokecard-title">{this.props.name}</h1>
                 <div>
-                    <p>Attack  : {this.props.attack}</p>
-                    <p>Defense : {this.props.defense}</p>
-                    <p>Speed   : {this.props.speed}</p>
+                    <p className="Pokecard-info">Attack  : {this.props.attack}</p>
+                    <p className="Pokecard-info">Defense : {this.props.defense}</p>
+                    <p className="Pokecard-info">Speed   : {this.props.speed}</p>
                     <img src={`${img}${this.props.id}MS.png`} alt={this.props.name} />
                 </div>
             </div>

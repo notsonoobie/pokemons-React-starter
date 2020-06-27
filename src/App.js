@@ -5,7 +5,7 @@ import Pokedeck from './Pokedeck';
 function App() {
   return (
     <div className="App">
-      <Pokedeck/>
+      <Pokedeck />
     </div>
   );
 }
