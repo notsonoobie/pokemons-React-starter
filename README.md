@@ -1,3 +1,5 @@
+Getting Started with React.js - A collection of pokemon cards with simple pagination feature and minimal css stylings.
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts

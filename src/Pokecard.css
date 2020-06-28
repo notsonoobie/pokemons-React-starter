@@ -11,3 +11,7 @@
 .Pokecard-info{
     font-size: 85%;
 }
+.Pokecard-img{
+    width: 100px;
+    height: 100px;
+}

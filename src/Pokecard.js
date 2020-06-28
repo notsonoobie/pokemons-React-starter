@@ -12,7 +12,7 @@ class Pokecard extends React.Component {
                     <p className="Pokecard-info">Attack  : {this.props.attack}</p>
                     <p className="Pokecard-info">Defense : {this.props.defense}</p>
                     <p className="Pokecard-info">Speed   : {this.props.speed}</p>
-                    <img src={`${img}${this.props.id}MS.png`} alt={this.props.name} />
+                    <img className="Pokecard-img" src={`${img}${this.props.id}MS.png`} alt={this.props.name} />
                 </div>
             </div>
         )
